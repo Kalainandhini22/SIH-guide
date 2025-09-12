@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIH Hackathon Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="bg-gray-800 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center max-w-7xl">
+            <a href="#" class="text-xl font-bold text-blue-400">SIH Guide</a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#section-1" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-medium">Ecosystem</a></li>
+                    <li><a href="#section-2" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-medium">The First Hurdle</a></li>
+                    <li><a href="#section-3" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-medium">Pitching</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-12 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto max-w-7xl">
+            <section class="text-center py-20 reveal">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-blue-400 leading-tight mb-4">A Blueprint for Success</h1>
+                <h2 class="text-2xl sm:text-3xl text-gray-200 font-light mb-6">Navigating the Smart India Hackathon (SIH) for the Aspiring Innovator</h2>
+                <p class="text-lg text-gray-400 max-w-3xl mx-auto">This guide will walk you through every step of the SIH, from choosing a problem to the final round, providing a clear explanation and expert guidance for beginners.</p>
+                <button id="getStartedBtn" class="mt-8 px-8 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition-transform duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    Get Started
+                </button>
+            </section>
+
+            <section id="section-1" class="my-16 reveal">
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-8 sm:p-12 lg:p-16">
+                    <h3 class="text-3xl font-bold text-gray-100 mb-6 border-b-2 border-blue-500 pb-2">1. The SIH Ecosystem</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">The journey into the Smart India Hackathon (SIH) is a transformative experience, offering an unparalleled opportunity to apply technical skills to solve complex, real-world challenges. For a novice in the field of engineering and technology, understanding the structure, scale, and strategic value of this event is the first critical step toward success. SIH is not merely a coding competition; it is a nationwide innovation marathon, designed by the Ministry of Education and AICTE, to harness the collective intellect of students to address pressing issues faced by government departments, public sector units, and major industries. These problems can range from improving rural healthcare to developing smart city technologies, with past participants tackling challenges posed by organizations like the Indian Railways and DRDO.</p>
+                    <p class="text-gray-300 mb-6 leading-relaxed">The scale of the hackathon is significant, with over 1.3 million students and thousands of institutes participating, resulting in tangible innovations like AI tools for farmers and energy-saving smart city infrastructure. The rewards for participation extend far beyond the cash prizes for winners, which amount to a substantial ₹1,50,000 per problem statement. The true value lies in the industry exposure, as students work directly on challenges from leading organizations, gaining insight into professional expectations. This pressurized environment hones a wide array of skills, including coding, teamwork, time management, and problem-solving, all of which are highly valued in the professional world. Furthermore, the event provides a platform for networking with industry professionals and peers, which can lead to invaluable mentorships, internships, and job offers. For many, SIH serves as a launchpad for entrepreneurial ventures, as their prototypes have the potential to evolve into full-fledged startups.</p>
+                    <p class="text-gray-300 mb-6 leading-relaxed">The entire SIH process follows a well-defined flow, which, while appearing complex, can be broken down into a clear, strategic timeline.</p>
+
+                    <h4 class="text-xl font-semibold text-gray-200 mb-4">Table 1: Key SIH 2025 Milestones and Timeline</h4>
+                    <div class="overflow-x-auto rounded-lg shadow-inner">
+                        <table class="w-full text-left table-auto border-collapse">
+                            <thead class="bg-blue-600 text-white">
+                                <tr>
+                                    <th class="p-4 border-b-2 border-blue-700">Phase</th>
+                                    <th class="p-4 border-b-2 border-blue-700">Activity</th>
+                                    <th class="p-4 border-b-2 border-blue-700">Tentative Dates</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-gray-700">
+                                    <td class="p-4 border-b border-gray-600 font-medium text-gray-200">Phase 1: Pre-Hackathon</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Problem Statements Dropped</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">August 25, 2025</td>
+                                </tr>
+                                <tr class="bg-gray-800">
+                                    <td class="p-4 border-b border-gray-700"></td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">Team Registration Ends</td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">September 6, 2025</td>
+                                </tr>
+                                <tr class="bg-gray-700">
+                                    <td class="p-4 border-b border-gray-600"></td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Internal College Hackathon</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">September 8–20, 2025</td>
+                                </tr>
+                                <tr class="bg-gray-800">
+                                    <td class="p-4 border-b border-gray-700 font-medium text-gray-200">Phase 2: Shortlisting</td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">College SPOC Nomination Deadline</td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">September 30, 2025</td>
+                                </tr>
+                                <tr class="bg-gray-700">
+                                    <td class="p-4 border-b border-gray-600"></td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">National-Level Shortlisting</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Late September–October, 2025</td>
+                                </tr>
+                                <tr class="bg-gray-800">
+                                    <td class="p-4 border-b border-gray-700"></td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">Idea Submission by Team Leader</td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">Following SPOC Nomination</td>
+                                </tr>
+                                <tr class="bg-gray-700">
+                                    <td class="p-4 border-b border-gray-600 font-medium text-gray-200">Phase 3: The Finale</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Grand Finale (36 hours)</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">November 2025 (Tentative)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-2" class="my-16 reveal">
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-8 sm:p-12 lg:p-16">
+                    <h3 class="text-3xl font-bold text-gray-100 mb-6 border-b-2 border-blue-500 pb-2">2. The First Hurdle: Navigating Your College's Internal Hackathon</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">The initial and most critical step for any aspiring SIH participant is securing a spot in the national competition by getting shortlisted at the college level. This process is entirely managed by the college's designated Single Point of Contact (SPOC), a senior faculty member who serves as the official liaison for SIH. The SPOC is responsible for registering the institute, organizing the internal hackathon, and ultimately nominating the best teams to represent the college on the official SIH portal. Direct student registration is not permitted. Therefore, a participant's primary focus should be on building a strong relationship with their SPOC and understanding the specific internal processes of their institution. A strategic approach involves not just adhering to the rules but actively engaging with the SPOC or other related faculty members to gain a clear understanding of the expectations and a more effective communication channel.</p>
+                    <h4 class="text-2xl font-semibold text-gray-200 mb-4 mt-8">Building Your Winning Team</h4>
+                    <p class="text-gray-300 mb-6 leading-relaxed">Official SIH guidelines mandate a team of six members, with at least one female member, and all members must be from the same college. The most common mistake made by new participants is forming a team based on friendships alone, a strategy that often leads to failure. A successful team is a balanced, multi-disciplinary unit where roles are assigned based on core strengths, not convenience. A well-rounded team should comprise complementary skills to tackle the diverse challenges of a hackathon.</p>
+
+                    <h4 class="text-xl font-semibold text-gray-200 mb-4">Table 2: The Winning Team: Roles and Core Skills</h4>
+                    <div class="overflow-x-auto rounded-lg shadow-inner">
+                        <table class="w-full text-left table-auto border-collapse">
+                            <thead class="bg-blue-600 text-white">
+                                <tr>
+                                    <th class="p-4 border-b-2 border-blue-700">Role</th>
+                                    <th class="p-4 border-b-2 border-blue-700">Primary Responsibilities</th>
+                                    <th class="p-4 border-b-2 border-blue-700">Core Skills</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-gray-700">
+                                    <td class="p-4 border-b border-gray-600 font-medium text-gray-200">Team Leader</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Manages communication, coordinates team efforts, ensures submissions are on time, and handles project management.</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Strong communication, organizational, and delegation skills</td>
+                                </tr>
+                                <tr class="bg-gray-800">
+                                    <td class="p-4 border-b border-gray-700 font-medium text-gray-200">Frontend/UI/UX Designer</td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">Designs the user interface and user experience, ensuring the solution is intuitive and visually appealing.</td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">Proficiency in design tools and frontend frameworks like React or similar</td>
+                                </tr>
+                                <tr class="bg-gray-700">
+                                    <td class="p-4 border-b border-gray-600 font-medium text-gray-200">Backend Developer</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Builds the core logic, server-side functionality, and database management for the application.</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Expertise in backend languages (e.g., Python, Node.js) and database systems</td>
+                                </tr>
+                                <tr class="bg-gray-800">
+                                    <td class="p-4 border-b border-gray-700 font-medium text-gray-200">Research/Business Strategist</td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">Conducts market research, validates the problem and solution, identifies target users, and develops the business case.</td>
+                                    <td class="p-4 border-b border-gray-700 text-gray-300">Analytical skills, market research, and understanding of business models</td>
+                                </tr>
+                                <tr class="bg-gray-700">
+                                    <td class="p-4 border-b border-gray-600 font-medium text-gray-200">Domain Expert</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Provides in-depth knowledge of the problem area, ensuring the solution addresses real-world pain points and is relevant to stakeholders.</td>
+                                    <td class="p-4 border-b border-gray-600 text-gray-300">Subject matter expertise in the chosen problem domain</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-3" class="my-16 reveal">
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-8 sm:p-12 lg:p-16">
+                    <h3 class="text-3xl font-bold text-gray-100 mb-6 border-b-2 border-blue-500 pb-2">3. Crafting the Winning Pitch: From Idea to Proposal</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">The transition from a raw idea to a compelling proposal is where many teams falter. A great idea can be lost without a clear, persuasive narrative. The pitch is not a mere technical report; it is a story that explains the problem, presents an elegant solution, and persuades the audience of its value and feasibility.</p>
+
+                    <h4 class="text-2xl font-semibold text-gray-200 mb-4 mt-8">The Art of Persuasion: The Winning Proposal and PPT Structure</h4>
+                    <p class="text-gray-300 mb-6 leading-relaxed">For internal hackathons, a six-slide presentation is often recommended. This structure serves as a blueprint for a clear and concise pitch.</p>
+                    <ul class="list-disc list-inside space-y-2 mb-6 text-gray-300">
+                        <li>**Title Page:** Provides all the necessary context, including the event name, problem statement ID, theme, and team details.</li>
+                        <li>**Idea Title/Solution Overview:** Introduces the proposed solution with a clear title and a brief description of what it does.</li>
+                        <li>**Technical Approach:** Details the project's technological foundation and outlines the process flow.</li>
+                        <li>**Feasibility and Viability:** Acknowledges potential challenges and proposes viable solutions.</li>
+                        <li>**Impact and Benefits:** Identifies the target audience and quantifies the benefits of the solution.</li>
+                        <li>**Research and References:** Provides credibility by listing research sources and acknowledging similar solutions.</li>
+                    </ul>
+
+                    <button id="showMoreBtn" class="px-6 py-2 bg-gray-700 text-gray-200 rounded-lg font-medium hover:bg-gray-600 transition-colors duration-300">
+                        Read more about the judging criteria
+                    </button>
+                </div>
+            </section>
+
+            <section id="section-4" class="my-16 reveal">
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-8 sm:p-12 lg:p-16">
+                    <h3 class="text-3xl font-bold text-gray-100 mb-6 border-b-2 border-blue-500 pb-2">4. The Grand Finale: A Strategic Playbook</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">Getting shortlisted for the grand finale is a remarkable achievement. The final stage is an intense, 36-hour hackathon held offline at designated nodal centers across India. Teams must travel to their assigned center, where accommodation is provided, and travel expenses are reimbursed up to the Sleeper Class fare.</p>
+                    <p class="text-gray-300 mb-6 leading-relaxed">During the 36-hour marathon, it is a test of not only technical skill but also endurance and collaboration. A strategic playbook is essential for success. The team should divide tasks based on each member's role and strengths, using a version control system like Git to manage code effectively and prevent conflicts.</p>
+                </div>
+            </section>
+            
+            <section id="section-5" class="my-16 reveal">
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-8 sm:p-12 lg:p-16">
+                    <h3 class="text-3xl font-bold text-gray-100 mb-6 border-b-2 border-blue-500 pb-2">5. The Tamil Nadu Advantage: Localizing Your Journey</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">The user's location in Tamil Nadu provides a distinct advantage, as the state has a thriving engineering and innovation ecosystem. Chennai has a rich history of hosting SIH nodal centers, such as KCG College of Technology, which was a nodal center for SIH 2024. This signifies a strong local presence and a supportive community for innovators.</p>
+                </div>
+            </section>
+
+            <section id="section-6" class="my-16 reveal">
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-8 sm:p-12 lg:p-16">
+                    <h3 class="text-3xl font-bold text-gray-100 mb-6 border-b-2 border-blue-500 pb-2">6. Mindset, Mentorship, and a Lasting Legacy</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">The journey through a hackathon is filled with highs and lows, and the mindset with which a participant approaches the experience is a determinant of success. It is important to adopt a perspective that values the journey itself, seeing it as an opportunity for personal and professional growth rather than a simple win-or-lose situation. A critical component of this journey is mentorship. Mentors, whether a college faculty member or an assigned industry expert, provide invaluable guidance, helping a team refine their idea and turn it into a working prototype.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div id="modal" class="hidden fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center p-4 z-50 transition-opacity duration-300">
+        <div class="bg-gray-800 rounded-lg p-8 max-w-2xl w-full shadow-2xl modal-fade-in">
+            <div class="flex justify-between items-center mb-4">
+                <h4 class="text-xl font-bold text-gray-100">SIH Evaluation Criteria</h4>
+                <button id="closeModalBtn" class="text-gray-400 hover:text-gray-100 transition-colors duration-200">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="overflow-x-auto rounded-lg shadow-inner">
+                <table class="w-full text-left table-auto border-collapse">
+                    <thead class="bg-blue-600 text-white">
+                        <tr>
+                            <th class="p-4 border-b-2 border-blue-700">Criterion</th>
+                            <th class="p-4 border-b-2 border-blue-700">What It Means</th>
+                            <th class="p-4 border-b-2 border-blue-700">Evidence to Provide</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-gray-700">
+                            <td class="p-4 border-b border-gray-600 font-medium text-gray-200">Novelty</td>
+                            <td class="p-4 border-b border-gray-600 text-gray-300">Is this idea original? Or is it an innovative improvement on something that already exists?</td>
+                            <td class="p-4 border-b border-gray-600 text-gray-300">Clear articulation of the solution's uniqueness and innovation</td>
+                        </tr>
+                        <tr class="bg-gray-800">
+                            <td class="p-4 border-b border-gray-700 font-medium text-gray-200">Feasibility & Practicability</td>
+                            <td class="p-4 border-b border-gray-700 text-gray-300">Can this be built? Is it realistic for a team of students to execute in the given time frame?</td>
+                            <td class="p-4 border-b border-gray-700 text-gray-300">Detailed tech stack, a clear process flow, and a plan to mitigate challenges</td>
+                        </tr>
+                        <tr class="bg-gray-700">
+                            <td class="p-4 border-b border-gray-600 font-medium text-gray-200">Clarity</td>
+                            <td class="p-4 border-b border-gray-600 text-gray-300">Is the problem and the proposed solution easy to understand, even for a non-technical person?</td>
+                            <td class="p-4 border-b border-gray-600 text-gray-300">A concise, well-structured proposal, clear language, and effective visuals</td>
+                        </tr>
+                        <tr class="bg-gray-800">
+                            <td class="p-4 border-b border-gray-700 font-medium text-gray-200">Impact & Sustainability</td>
+                            <td class="p-4 border-b border-gray-700 text-gray-300">Will this solution have a real-world benefit? Can it be sustained and scaled after the hackathon?</td>
+                            <td class="p-4 border-b border-gray-700 text-gray-300">Quantifiable metrics for impact, a defined target audience, and a clear vision for the future</td>
+                        </tr>
+                        <tr class="bg-gray-700">
+                            <td class="p-4 border-b border-gray-600 font-medium text-gray-200">User Experience (UX)</td>
+                            <td class="p-4 border-b border-gray-600 text-gray-300">Is the product intuitive and easy to use for the end-user?</td>
+                            <td class="p-4 border-b border-gray-600 text-gray-300">A functional prototype, a clear demo, and evidence of user testing or interviews</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="App.js"></script>
+</body>
+</html>
